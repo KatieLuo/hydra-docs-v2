@@ -66,7 +66,7 @@ osc(5,-0.126,0.514).rotate().out()
 
 As you can see, you have first an input source `osc()` and things that come after (`rotate()` and `out()`) are connected with a dot ‘.’
 In this sense, Hydra is inspired by [modular synthesis](https://en.wikipedia.org/wiki/Modular_synthesizer).
-Instead of connecting cables you connect different kinds of javascript functions.  
+Instead of connecting cables you connect different kinds of javascript functions. The order of each function sequentially changes the output.
 ![](https://i.imgur.com/RBRxeiL.jpg)
 ###### source [Sandin Image Processor](https://en.wikipedia.org/wiki/Sandin_Image_Processor)
 
